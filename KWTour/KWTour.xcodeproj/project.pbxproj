@@ -16,6 +16,10 @@
 		20F5DF5128BD49BF006D08A5 /* Malls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F5DF5028BD49BF006D08A5 /* Malls.swift */; };
 		20F5DF5328BD4A02006D08A5 /* Parks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F5DF5228BD4A02006D08A5 /* Parks.swift */; };
 		20F5DF6F28BD58F3006D08A5 /* home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F5DF6E28BD58F3006D08A5 /* home.swift */; };
+		20F5DF7128BD5B8B006D08A5 /* chosen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F5DF7028BD5B8B006D08A5 /* chosen.swift */; };
+		20F5DF7328BD6599006D08A5 /* map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F5DF7228BD6599006D08A5 /* map.swift */; };
+		20F5DF7528BD65DF006D08A5 /* Information.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F5DF7428BD65DF006D08A5 /* Information.swift */; };
+		20F5DF7728BD707B006D08A5 /* Gallaries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F5DF7628BD707B006D08A5 /* Gallaries.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +33,10 @@
 		20F5DF5028BD49BF006D08A5 /* Malls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Malls.swift; sourceTree = "<group>"; };
 		20F5DF5228BD4A02006D08A5 /* Parks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parks.swift; sourceTree = "<group>"; };
 		20F5DF6E28BD58F3006D08A5 /* home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home.swift; sourceTree = "<group>"; };
+		20F5DF7028BD5B8B006D08A5 /* chosen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chosen.swift; sourceTree = "<group>"; };
+		20F5DF7228BD6599006D08A5 /* map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = map.swift; sourceTree = "<group>"; };
+		20F5DF7428BD65DF006D08A5 /* Information.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Information.swift; sourceTree = "<group>"; };
+		20F5DF7628BD707B006D08A5 /* Gallaries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gallaries.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +72,10 @@
 				207338B828BBA4B2008AA4F1 /* KWTourApp.swift */,
 				207338BA28BBA4B2008AA4F1 /* ContentView.swift */,
 				20F5DF6E28BD58F3006D08A5 /* home.swift */,
+				20F5DF7628BD707B006D08A5 /* Gallaries.swift */,
+				20F5DF7428BD65DF006D08A5 /* Information.swift */,
+				20F5DF7228BD6599006D08A5 /* map.swift */,
+				20F5DF7028BD5B8B006D08A5 /* chosen.swift */,
 				20F5DF5228BD4A02006D08A5 /* Parks.swift */,
 				20F5DF5028BD49BF006D08A5 /* Malls.swift */,
 				207338C828BBAE1F008AA4F1 /* app colors.swift */,
@@ -153,9 +165,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20F5DF7528BD65DF006D08A5 /* Information.swift in Sources */,
 				20F5DF5128BD49BF006D08A5 /* Malls.swift in Sources */,
 				207338C928BBAE1F008AA4F1 /* app colors.swift in Sources */,
+				20F5DF7328BD6599006D08A5 /* map.swift in Sources */,
+				20F5DF7128BD5B8B006D08A5 /* chosen.swift in Sources */,
 				20F5DF6F28BD58F3006D08A5 /* home.swift in Sources */,
+				20F5DF7728BD707B006D08A5 /* Gallaries.swift in Sources */,
 				207338BB28BBA4B2008AA4F1 /* ContentView.swift in Sources */,
 				207338B928BBA4B2008AA4F1 /* KWTourApp.swift in Sources */,
 				20F5DF5328BD4A02006D08A5 /* Parks.swift in Sources */,
