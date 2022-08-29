@@ -13,6 +13,9 @@
 		207338C028BBA4B2008AA4F1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 207338BF28BBA4B2008AA4F1 /* Preview Assets.xcassets */; };
 		207338C728BBA573008AA4F1 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 207338C628BBA573008AA4F1 /* Launch Screen.storyboard */; };
 		207338C928BBAE1F008AA4F1 /* app colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207338C828BBAE1F008AA4F1 /* app colors.swift */; };
+		20F5DF5128BD49BF006D08A5 /* Malls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F5DF5028BD49BF006D08A5 /* Malls.swift */; };
+		20F5DF5328BD4A02006D08A5 /* Parks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F5DF5228BD4A02006D08A5 /* Parks.swift */; };
+		20F5DF6F28BD58F3006D08A5 /* home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F5DF6E28BD58F3006D08A5 /* home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		207338BF28BBA4B2008AA4F1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		207338C628BBA573008AA4F1 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		207338C828BBAE1F008AA4F1 /* app colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "app colors.swift"; sourceTree = "<group>"; };
+		20F5DF5028BD49BF006D08A5 /* Malls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Malls.swift; sourceTree = "<group>"; };
+		20F5DF5228BD4A02006D08A5 /* Parks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parks.swift; sourceTree = "<group>"; };
+		20F5DF6E28BD58F3006D08A5 /* home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 			children = (
 				207338B828BBA4B2008AA4F1 /* KWTourApp.swift */,
 				207338BA28BBA4B2008AA4F1 /* ContentView.swift */,
+				20F5DF6E28BD58F3006D08A5 /* home.swift */,
+				20F5DF5228BD4A02006D08A5 /* Parks.swift */,
+				20F5DF5028BD49BF006D08A5 /* Malls.swift */,
 				207338C828BBAE1F008AA4F1 /* app colors.swift */,
 				207338C628BBA573008AA4F1 /* Launch Screen.storyboard */,
 				207338BC28BBA4B2008AA4F1 /* Assets.xcassets */,
@@ -144,9 +153,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20F5DF5128BD49BF006D08A5 /* Malls.swift in Sources */,
 				207338C928BBAE1F008AA4F1 /* app colors.swift in Sources */,
+				20F5DF6F28BD58F3006D08A5 /* home.swift in Sources */,
 				207338BB28BBA4B2008AA4F1 /* ContentView.swift in Sources */,
 				207338B928BBA4B2008AA4F1 /* KWTourApp.swift in Sources */,
+				20F5DF5328BD4A02006D08A5 /* Parks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,14 +9,18 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Welcome to KWTour")
-            .padding()
+        Text("")
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
-            .previewDevice("iPhone 13")
+        Group {
+            ContentView()
+                .previewDevice("iPhone 13")
+            ContentView()
+                .preferredColorScheme(.dark)
+                .previewDevice("iPhone 13")
+        }
     }
 }
