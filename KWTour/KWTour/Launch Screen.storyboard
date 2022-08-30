@@ -29,7 +29,7 @@
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="603" id="44S-UD-Ep4"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="The beauty of Kuwait tourism" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="ka6-5e-kIJ">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="The beauty of Kuwait tourism" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="ka6-5e-kIJ">
                                 <rect key="frame" x="97" y="625" width="220" height="22"/>
                                 <fontDescription key="fontDescription" name="BodoniSvtyTwoSCITCTT-Book" family="Bodoni 72 Smallcaps" pointSize="18"/>
                                 <color key="textColor" name="primary"/>
@@ -46,6 +46,7 @@
                             <constraint firstItem="ka6-5e-kIJ" firstAttribute="top" secondItem="uLK-lx-40P" secondAttribute="bottom" constant="8" symbolic="YES" id="NL7-FB-USV"/>
                             <constraint firstItem="uLK-lx-40P" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" id="Oms-U1-qQw"/>
                             <constraint firstItem="obG-Y5-kRd" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" symbolic="YES" id="SfN-ll-jLj"/>
+                            <constraint firstItem="ka6-5e-kIJ" firstAttribute="centerX" secondItem="obG-Y5-kRd" secondAttribute="centerX" id="Ts8-h1-14y"/>
                             <constraint firstItem="uLK-lx-40P" firstAttribute="trailing" secondItem="Bcu-3y-fUS" secondAttribute="trailing" id="WSQ-ZG-090"/>
                             <constraint firstItem="Bcu-3y-fUS" firstAttribute="bottom" secondItem="uLK-lx-40P" secondAttribute="bottom" constant="215" id="WlX-Zd-Rn5"/>
                             <constraint firstAttribute="bottom" secondItem="obG-Y5-kRd" secondAttribute="bottom" constant="20" id="Y44-ml-fuU"/>
@@ -55,6 +56,7 @@
                             <constraint firstItem="uLK-lx-40P" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" id="fYa-av-nze"/>
                             <constraint firstItem="uLK-lx-40P" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" id="ftD-XU-E3h"/>
                             <constraint firstItem="uLK-lx-40P" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" id="kDn-h6-rYg"/>
+                            <constraint firstItem="ka6-5e-kIJ" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="97" id="qrn-kN-ytB"/>
                             <constraint firstItem="ka6-5e-kIJ" firstAttribute="top" secondItem="uLK-lx-40P" secondAttribute="bottom" constant="105" id="rLW-4z-sBL"/>
                             <constraint firstItem="uLK-lx-40P" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" id="sZj-W1-Lg7"/>
                             <constraint firstItem="uLK-lx-40P" firstAttribute="trailing" secondItem="Bcu-3y-fUS" secondAttribute="trailing" id="vT6-cg-0uq"/>

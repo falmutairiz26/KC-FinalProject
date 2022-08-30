@@ -12,48 +12,53 @@ struct home: View {
     private let timer = Timer.publish(every: 1.5, on: .main, in: .common).autoconnect()
     @State private var currentindext = 0
     var body: some View {
-        NavigationView{
-            ZStack {
-                    Color("bg")
-                        .ignoresSafeArea()
-                VStack{
-                    VStack {
-                        Image("KWTour")
-                            .resizable()
-                            .frame(width: 170, height: 170)
-                        Gallary1()
-                    Text("Welcome to KWTour")
-                        .font(.custom("Baskerville", size: 35))
-                        .fontWeight(.regular)
-                        .multilineTextAlignment(.center)
-                        .foregroundColor(Color("primary"))
-                    }
-        NavigationLink {
-            Information()
-        } label: {
-            Text("Need to Know")
-                .padding()
-                .font(.custom("Bodoni 72 Smallcaps", size: 20))
-                .foregroundColor(Color("oncon"))
-                .frame(width: 200, height: 50)
-                .background(Color("container"))
-                .cornerRadius(20)
+            NavigationView{
+                ZStack {
+                        Image("homebg")
+                        .resizable()
+                            .ignoresSafeArea()
+                    VStack{
+                        VStack {
+                            Image("KWTour")
+                                .resizable()
+                                .frame(width: 150, height: 150)
+                            Gallary1()
+                                .frame(width: 300, height: 200)
+                                .cornerRadius(20)
+                        Text("Welcome to KWTour")
+                            .font(.custom("Baskerville", size: 30))
+                            .fontWeight(.regular)
+                            .multilineTextAlignment(.center)
+                            .foregroundColor(Color("onp"))
+                            .frame(width: 300, height: 150 )
+                        }
+            NavigationLink {
+                ntknow()
+            } label: {
+                Text("Need to Know")
+                    .padding()
+                    .font(.custom("Bodoni 72 Smallcaps", size: 20))
+                    .foregroundColor(Color("oncon"))
+                    .frame(width: 200, height: 50)
+                    .background(Color("container"))
+                    .cornerRadius(20)
+            }
+            NavigationLink {
+                map()
+            } label: {
+                Text("Map of Kuwait")
+                    .padding()
+                    .font(.custom("Bodoni 72 Smallcaps", size: 20))
+                    .foregroundColor(Color("oncon"))
+                    .frame(width: 200, height: 50)
+                    .background(Color("container"))
+                    .cornerRadius(20)
+            }
+                        Spacer()
+    }
+    }
+            }
         }
-        NavigationLink {
-            map()
-        } label: {
-            Text("Map of Kuwait")
-                .padding()
-                .font(.custom("Bodoni 72 Smallcaps", size: 20))
-                .foregroundColor(Color("oncon"))
-                .frame(width: 200, height: 50)
-                .background(Color("container"))
-                .cornerRadius(20)
-        }
-}
-}
-}
-}
 }
 
 struct home_Previews: PreviewProvider {
