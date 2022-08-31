@@ -23,11 +23,11 @@ NavigationView {
                                 .frame(width: 320, height: 120)
                                 .background(Color("container"))
                                 .cornerRadius(20)
-                            NavigationLink(destination: {
-                                selected(placesin: "")
-                            }, label: {
-                                pick(typeplaces: type.name)
-                            })
+//                            NavigationLink(destination: {
+//                                selected(placesin: "")
+//                            }, label: {
+//                                pick(typeplaces: type.name)
+//                            })
                             
                         }
                     }
