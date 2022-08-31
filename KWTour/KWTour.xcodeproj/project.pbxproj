@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20296A9428BFE75300F490B8 /* mystructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20296A9328BFE75300F490B8 /* mystructs.swift */; };
 		204FA9A228BE7B7C00838B22 /* ntknowbg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204FA9A128BE7B7C00838B22 /* ntknowbg.swift */; };
 		204FA9A428BE7C1E00838B22 /* pick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204FA9A328BE7C1E00838B22 /* pick.swift */; };
 		204FA9A628BE9E3A00838B22 /* gal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204FA9A528BE9E3A00838B22 /* gal.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		20296A9328BFE75300F490B8 /* mystructs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mystructs.swift; sourceTree = "<group>"; };
 		204FA9A128BE7B7C00838B22 /* ntknowbg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ntknowbg.swift; sourceTree = "<group>"; };
 		204FA9A328BE7C1E00838B22 /* pick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pick.swift; sourceTree = "<group>"; };
 		204FA9A528BE9E3A00838B22 /* gal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gal.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				205F345C28BFA4C30056FBE8 /* selected.swift */,
 				20F5DF7028BD5B8B006D08A5 /* chosen.swift */,
 				204FA9A528BE9E3A00838B22 /* gal.swift */,
+				20296A9328BFE75300F490B8 /* mystructs.swift */,
 				207338C828BBAE1F008AA4F1 /* app colors.swift */,
 				207338C628BBA573008AA4F1 /* Launch Screen.storyboard */,
 				207338BC28BBA4B2008AA4F1 /* Assets.xcassets */,
@@ -173,6 +176,7 @@
 				204FA9A228BE7B7C00838B22 /* ntknowbg.swift in Sources */,
 				204FA9A428BE7C1E00838B22 /* pick.swift in Sources */,
 				207338BB28BBA4B2008AA4F1 /* ContentView.swift in Sources */,
+				20296A9428BFE75300F490B8 /* mystructs.swift in Sources */,
 				205F345D28BFA4C30056FBE8 /* selected.swift in Sources */,
 				207338B928BBA4B2008AA4F1 /* KWTourApp.swift in Sources */,
 			);

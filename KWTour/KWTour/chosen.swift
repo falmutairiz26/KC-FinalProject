@@ -12,10 +12,11 @@ struct chosen: View {
         NavigationView {
             ZStack {
                 Image("chosenbg")
+                    .resizable()
                     .ignoresSafeArea()
                 VStack {
                     //title
-                    Text("Chosen selected..")
+                    Text("* Chosen selected *")
                         .font(.custom("Baskerville", size: 30))
                         .foregroundColor(Color("oncon"))
                         .frame(width: 250, height: 100)
@@ -26,7 +27,7 @@ struct chosen: View {
                     VStack {
                     //info and pic
                         HStack {
-                            Text("...")
+                            Text("..............................................................................................")
                                 .padding()
                             Spacer()
                             Image("KWTour")
@@ -36,8 +37,8 @@ struct chosen: View {
                                 .padding()
                         }
                     //more info
-                    Text("........")
-                    Spacer()
+                    Text("..............................................................................................................................")
+                            .padding()
 
                     }.font(.custom("Baskerville", size: 20))
                         .foregroundColor(Color("oncon"))
@@ -81,6 +82,8 @@ struct chosen: View {
                         .frame(width: 280, height: 60)
                         .background(Color("container"))
                         .cornerRadius(20)
+                        .frame(width: 390, height: 180, alignment: .top)
+                    Spacer()
                 }
 
             }

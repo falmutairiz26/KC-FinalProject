@@ -8,29 +8,43 @@
 import SwiftUI
 
 struct selected: View {
+    var placesin : inplaces
     var body: some View {
         NavigationView {
             ZStack {
                 Image("selectedbg")
+                    .resizable()
                     .ignoresSafeArea()
-                ScrollView {
-                    VStack {
-                        Text("selected")
-                            .font(.custom("Baskerville", size: 20))
-                            .foregroundColor(Color("oncon"))
-                            .frame(width: 320, height: 120)
-                            .background(Color("container"))
-                            .cornerRadius(20)
+                VStack {
+                    ScrollView {
+                        ForEach(placesin.places, id: \.self){ plc in
+                        VStack {
+                            HStack {
+                                Text(plc)
+                                    .font(.custom("Baskerville", size: 25))
+                                    .foregroundColor(Color("oncon"))
+                                    .frame(width: 320, height: 120)
+                                    .background(Color("container"))
+                                .cornerRadius(20)
+                                Image(plc)
+                            }
+                        }
                     }
-                }.padding()
-                .frame(width: 390, height: 700)
+                    }
+                    Text("space ;)")
+                        .foregroundColor(.white)
+                        .frame(width: 390, height: 67)
+                        .background(Color.white)
+
+                
             }
         }
     }
 }
-
+}
 struct selected_Previews: PreviewProvider {
+    @Binding var place : inplaces
     static var previews: some View {
-        selected()
+        selected(placesin: inplaces(places: ["Al-Shaheed","Morooj","Green Island"], pic: ["Al-Shaheed","Morooj","Green Island"]))
     }
 }
