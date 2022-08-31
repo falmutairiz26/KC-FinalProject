@@ -9,7 +9,22 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("")
+        ZStack {
+            TabView {
+                home()
+                    .tabItem {
+                        Image(systemName: "house")
+                            .foregroundColor(Color.theme.onsec)
+                        Text("Home")
+                    }
+                pick()
+                    .tabItem {
+                        Image(systemName: "list.bullet.circle")
+                            .foregroundColor(Color.theme.onp)
+                        Text("Prefrences")
+                    }
+            }
+        }
     }
 }
 

@@ -9,7 +9,21 @@ import SwiftUI
 
 struct pick: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            ZStack {
+                Image("pickbg")
+                    .resizable()
+                    .ignoresSafeArea()
+                VStack {
+                    Text("picks")
+                        .font(.custom("Baskerville", size: 20))
+                        .foregroundColor(Color("oncon"))
+                        .frame(width: 320, height: 120)
+                        .background(Color("container"))
+                        .cornerRadius(20)
+                }
+            }
+        }
     }
 }
 

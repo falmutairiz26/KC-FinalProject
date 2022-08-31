@@ -21,17 +21,18 @@ struct home: View {
                         VStack {
                             Image("KWTour")
                                 .resizable()
-                                .frame(width: 150, height: 150)
+                                .frame(width: 160, height: 160)
                             Gallary1()
                                 .frame(width: 300, height: 200)
                                 .cornerRadius(20)
-                        Text("Welcome to KWTour")
-                            .font(.custom("Baskerville", size: 30))
+                    Text("Welcome to KWTour")
+                            .font(.custom("Baskerville", size: 34))
                             .fontWeight(.regular)
                             .multilineTextAlignment(.center)
                             .foregroundColor(Color("onp"))
-                            .frame(width: 300, height: 150 )
+                            .frame(width: 300, height: 95 )
                         }
+        //needtoknow
             NavigationLink {
                 ntknow()
             } label: {
@@ -43,6 +44,7 @@ struct home: View {
                     .background(Color("container"))
                     .cornerRadius(20)
             }
+        //mapofkuwait
             NavigationLink {
                 map()
             } label: {
