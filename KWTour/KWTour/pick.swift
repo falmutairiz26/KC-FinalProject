@@ -14,27 +14,57 @@ NavigationView {
     Image("pickbg")
                 .resizable()
                     .ignoresSafeArea()
-                VStack {
-                    ForEach(typeplaces) { type in
-                        VStack {
-                            Text(type.name)
-                                .font(.custom("Baskerville", size: 30))
-                                .foregroundColor(Color("oncon"))
-                                .frame(width: 320, height: 120)
-                                .background(Color("container"))
-                                .cornerRadius(20)
-//                            NavigationLink(destination: {
-//                                selected(placesin: "")
-//                            }, label: {
-//                                pick(typeplaces: type.name)
-//                            })
-                            
-                        }
-                    }
-                }
-            }
-        }
-    }
+            VStack {
+                NavigationLink(destination:{
+                    MallsView()
+                }, label: {
+                Text("Malls")
+                    .font(.custom("Baskerville", size: 30))
+                    .foregroundColor(Color("oncon"))
+                    .frame(width: 290, height: 70)
+                    .background(Color("container"))
+                    .cornerRadius(20)
+                    .frame(width: 300, height: 90)})
+
+
+                NavigationLink(destination: {
+                    ParksView()
+                }, label: {
+                Text("Parks")
+                    .font(.custom("Baskerville", size: 30))
+                    .foregroundColor(Color("oncon"))
+                    .frame(width: 290, height: 70)
+                    .background(Color("container"))
+                    .cornerRadius(20)
+                    .frame(width: 300, height: 90)})
+
+
+
+                NavigationLink(destination: {
+                    CulturalLandmarksView()
+                }, label: {
+                Text("Cultural Landmarks")
+                    .font(.custom("Baskerville", size: 30))
+                    .foregroundColor(Color("oncon"))
+                    .frame(width: 290, height: 70)
+                    .background(Color("container"))
+                    .cornerRadius(20)
+                    .frame(width: 300, height: 90)})
+
+                NavigationLink(destination: {
+                    MuseumsView()
+                }, label: {
+                Text("Museums")
+                    .font(.custom("Baskerville", size: 30))
+                    .foregroundColor(Color("oncon"))
+                    .frame(width: 290, height: 70)
+                    .background(Color("container"))
+                    .cornerRadius(20)
+                    .frame(width: 300, height: 90)})
+}
+}
+}
+}
 }
 
 struct pick_Previews: PreviewProvider {

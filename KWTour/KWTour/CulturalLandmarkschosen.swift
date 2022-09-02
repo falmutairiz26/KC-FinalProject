@@ -1,13 +1,14 @@
 //
-//  chosen.swift
+//  CulturalLandmarkschosen.swift
 //  KWTour
 //
-//  Created by Fatemah Almutairi on 29/08/2022.
+//  Created by Fatemah Almutairi on 03/09/2022.
 //
 
 import SwiftUI
 
-struct chosen: View {
+struct CulturalLandmarkschosen: View {
+    var i : CulturalLandmarks
     var body: some View {
         NavigationView {
             ZStack {
@@ -16,7 +17,7 @@ struct chosen: View {
                     .ignoresSafeArea()
                 VStack {
                     //title
-                    Text("* Chosen selected *")
+                    Text(i.name)
                         .font(.custom("Baskerville", size: 30))
                         .foregroundColor(Color("oncon"))
                         .frame(width: 250, height: 100)
@@ -27,17 +28,17 @@ struct chosen: View {
                     VStack {
                     //info and pic
                         HStack {
-                            Text("..............................................................................................")
+                            Text(i.info)
                                 .padding()
                             Spacer()
-                            Image("KWTour")
+                            Image(i.name)
                                 .resizable()
                                 .scaledToFit()
                                 .frame(width: 120, height: 120)
                                 .padding()
                         }
                     //more info
-                    Text("..............................................................................................................................")
+                        Text(i.info)
                             .padding()
 
                     }.font(.custom("Baskerville", size: 20))
@@ -49,29 +50,14 @@ struct chosen: View {
                     //pics of place
                     ScrollView(.horizontal){
                         HStack{
-                            Image("KWTour")
+                            ForEach(i.pics, id:\.self){ i in
+                            Image(i)
                                 .resizable()
                                 .scaledToFit()
                                 .frame(width: 180, height: 180)
                                 .padding()
-                            Image("KWTour")
-                                .resizable()
-                                .scaledToFit()
-                                .frame(width: 180, height: 180)
-                                .padding()
-                            Image("KWTour")
-                                .resizable()
-                                .scaledToFit()
-                                .frame(width: 180, height: 180)
-                                .padding()
-                            Image("KWTour")
-                                .resizable()
-                                .scaledToFit()
-                                .frame(width: 180, height: 180)
-                                .padding()
-                            
                         }
-
+                        }
                     }.padding()
                     .frame(width: 400, height: 220)
                     
@@ -90,9 +76,8 @@ struct chosen: View {
         }
     }
 }
-
-struct chosen_Previews: PreviewProvider {
+struct CulturalLandmarkschosen_Previews: PreviewProvider {
     static var previews: some View {
-        chosen()
+        CulturalLandmarkschosen(i:CulturalLandmarks(name: "Mubarakia", info: "da da da", pics: ["g","g","g","g"]))
     }
 }

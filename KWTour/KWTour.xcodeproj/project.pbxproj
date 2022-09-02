@@ -11,15 +11,21 @@
 		204FA9A228BE7B7C00838B22 /* ntknowbg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204FA9A128BE7B7C00838B22 /* ntknowbg.swift */; };
 		204FA9A428BE7C1E00838B22 /* pick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204FA9A328BE7C1E00838B22 /* pick.swift */; };
 		204FA9A628BE9E3A00838B22 /* gal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204FA9A528BE9E3A00838B22 /* gal.swift */; };
-		205F345D28BFA4C30056FBE8 /* selected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205F345C28BFA4C30056FBE8 /* selected.swift */; };
 		207338B928BBA4B2008AA4F1 /* KWTourApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207338B828BBA4B2008AA4F1 /* KWTourApp.swift */; };
 		207338BB28BBA4B2008AA4F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207338BA28BBA4B2008AA4F1 /* ContentView.swift */; };
 		207338BD28BBA4B2008AA4F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 207338BC28BBA4B2008AA4F1 /* Assets.xcassets */; };
 		207338C028BBA4B2008AA4F1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 207338BF28BBA4B2008AA4F1 /* Preview Assets.xcassets */; };
 		207338C728BBA573008AA4F1 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 207338C628BBA573008AA4F1 /* Launch Screen.storyboard */; };
 		207338C928BBAE1F008AA4F1 /* app colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207338C828BBAE1F008AA4F1 /* app colors.swift */; };
+		20B0C3A328C2C78500FA080F /* MallsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B0C3A228C2C78500FA080F /* MallsView.swift */; };
+		20B0C3A528C2C79200FA080F /* Mallschosen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B0C3A428C2C79200FA080F /* Mallschosen.swift */; };
+		20B0C3A728C2C79F00FA080F /* ParksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B0C3A628C2C79F00FA080F /* ParksView.swift */; };
+		20B0C3A928C2C7AB00FA080F /* Parkschosen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B0C3A828C2C7AB00FA080F /* Parkschosen.swift */; };
+		20B0C3AB28C2C7B600FA080F /* CulturalLandmarksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B0C3AA28C2C7B600FA080F /* CulturalLandmarksView.swift */; };
+		20B0C3AD28C2C7C200FA080F /* CulturalLandmarkschosen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B0C3AC28C2C7C200FA080F /* CulturalLandmarkschosen.swift */; };
+		20B0C3AF28C2C7D400FA080F /* MuseumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B0C3AE28C2C7D400FA080F /* MuseumsView.swift */; };
+		20B0C3B128C2C7E000FA080F /* Museumschosen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B0C3B028C2C7E000FA080F /* Museumschosen.swift */; };
 		20F5DF6F28BD58F3006D08A5 /* home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F5DF6E28BD58F3006D08A5 /* home.swift */; };
-		20F5DF7128BD5B8B006D08A5 /* chosen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F5DF7028BD5B8B006D08A5 /* chosen.swift */; };
 		20F5DF7328BD6599006D08A5 /* map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F5DF7228BD6599006D08A5 /* map.swift */; };
 /* End PBXBuildFile section */
 
@@ -28,7 +34,6 @@
 		204FA9A128BE7B7C00838B22 /* ntknowbg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ntknowbg.swift; sourceTree = "<group>"; };
 		204FA9A328BE7C1E00838B22 /* pick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pick.swift; sourceTree = "<group>"; };
 		204FA9A528BE9E3A00838B22 /* gal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gal.swift; sourceTree = "<group>"; };
-		205F345C28BFA4C30056FBE8 /* selected.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selected.swift; sourceTree = "<group>"; };
 		207338B528BBA4B2008AA4F1 /* KWTour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KWTour.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		207338B828BBA4B2008AA4F1 /* KWTourApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KWTourApp.swift; sourceTree = "<group>"; };
 		207338BA28BBA4B2008AA4F1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,8 +41,15 @@
 		207338BF28BBA4B2008AA4F1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		207338C628BBA573008AA4F1 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		207338C828BBAE1F008AA4F1 /* app colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "app colors.swift"; sourceTree = "<group>"; };
+		20B0C3A228C2C78500FA080F /* MallsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MallsView.swift; sourceTree = "<group>"; };
+		20B0C3A428C2C79200FA080F /* Mallschosen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mallschosen.swift; sourceTree = "<group>"; };
+		20B0C3A628C2C79F00FA080F /* ParksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParksView.swift; sourceTree = "<group>"; };
+		20B0C3A828C2C7AB00FA080F /* Parkschosen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parkschosen.swift; sourceTree = "<group>"; };
+		20B0C3AA28C2C7B600FA080F /* CulturalLandmarksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CulturalLandmarksView.swift; sourceTree = "<group>"; };
+		20B0C3AC28C2C7C200FA080F /* CulturalLandmarkschosen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CulturalLandmarkschosen.swift; sourceTree = "<group>"; };
+		20B0C3AE28C2C7D400FA080F /* MuseumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseumsView.swift; sourceTree = "<group>"; };
+		20B0C3B028C2C7E000FA080F /* Museumschosen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Museumschosen.swift; sourceTree = "<group>"; };
 		20F5DF6E28BD58F3006D08A5 /* home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home.swift; sourceTree = "<group>"; };
-		20F5DF7028BD5B8B006D08A5 /* chosen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chosen.swift; sourceTree = "<group>"; };
 		20F5DF7228BD6599006D08A5 /* map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = map.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,8 +89,14 @@
 				204FA9A128BE7B7C00838B22 /* ntknowbg.swift */,
 				20F5DF7228BD6599006D08A5 /* map.swift */,
 				204FA9A328BE7C1E00838B22 /* pick.swift */,
-				205F345C28BFA4C30056FBE8 /* selected.swift */,
-				20F5DF7028BD5B8B006D08A5 /* chosen.swift */,
+				20B0C3A228C2C78500FA080F /* MallsView.swift */,
+				20B0C3A428C2C79200FA080F /* Mallschosen.swift */,
+				20B0C3A628C2C79F00FA080F /* ParksView.swift */,
+				20B0C3A828C2C7AB00FA080F /* Parkschosen.swift */,
+				20B0C3AA28C2C7B600FA080F /* CulturalLandmarksView.swift */,
+				20B0C3AC28C2C7C200FA080F /* CulturalLandmarkschosen.swift */,
+				20B0C3AE28C2C7D400FA080F /* MuseumsView.swift */,
+				20B0C3B028C2C7E000FA080F /* Museumschosen.swift */,
 				204FA9A528BE9E3A00838B22 /* gal.swift */,
 				20296A9328BFE75300F490B8 /* mystructs.swift */,
 				207338C828BBAE1F008AA4F1 /* app colors.swift */,
@@ -168,16 +186,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20B0C3A728C2C79F00FA080F /* ParksView.swift in Sources */,
+				20B0C3AF28C2C7D400FA080F /* MuseumsView.swift in Sources */,
+				20B0C3AD28C2C7C200FA080F /* CulturalLandmarkschosen.swift in Sources */,
 				207338C928BBAE1F008AA4F1 /* app colors.swift in Sources */,
 				204FA9A628BE9E3A00838B22 /* gal.swift in Sources */,
+				20B0C3B128C2C7E000FA080F /* Museumschosen.swift in Sources */,
 				20F5DF7328BD6599006D08A5 /* map.swift in Sources */,
-				20F5DF7128BD5B8B006D08A5 /* chosen.swift in Sources */,
 				20F5DF6F28BD58F3006D08A5 /* home.swift in Sources */,
 				204FA9A228BE7B7C00838B22 /* ntknowbg.swift in Sources */,
+				20B0C3A328C2C78500FA080F /* MallsView.swift in Sources */,
 				204FA9A428BE7C1E00838B22 /* pick.swift in Sources */,
 				207338BB28BBA4B2008AA4F1 /* ContentView.swift in Sources */,
+				20B0C3A528C2C79200FA080F /* Mallschosen.swift in Sources */,
+				20B0C3A928C2C7AB00FA080F /* Parkschosen.swift in Sources */,
 				20296A9428BFE75300F490B8 /* mystructs.swift in Sources */,
-				205F345D28BFA4C30056FBE8 /* selected.swift in Sources */,
+				20B0C3AB28C2C7B600FA080F /* CulturalLandmarksView.swift in Sources */,
 				207338B928BBA4B2008AA4F1 /* KWTourApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
