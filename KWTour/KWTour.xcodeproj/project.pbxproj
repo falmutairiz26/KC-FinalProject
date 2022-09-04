@@ -66,6 +66,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20440E5728C50DE8009BBE51 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				20F5DF6E28BD58F3006D08A5 /* home.swift */,
+				204FA9A128BE7B7C00838B22 /* ntknowbg.swift */,
+				20F5DF7228BD6599006D08A5 /* map.swift */,
+				204FA9A328BE7C1E00838B22 /* pick.swift */,
+				20B0C3A228C2C78500FA080F /* MallsView.swift */,
+				20B0C3AA28C2C7B600FA080F /* CulturalLandmarksView.swift */,
+				20B0C3AE28C2C7D400FA080F /* MuseumsView.swift */,
+				20B0C3A628C2C79F00FA080F /* ParksView.swift */,
+				20B0C3A428C2C79200FA080F /* Mallschosen.swift */,
+				20B0C3AC28C2C7C200FA080F /* CulturalLandmarkschosen.swift */,
+				20B0C3B028C2C7E000FA080F /* Museumschosen.swift */,
+				20B0C3A828C2C7AB00FA080F /* Parkschosen.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		207338AC28BBA4B2008AA4F1 = {
 			isa = PBXGroup;
 			children = (
@@ -87,18 +106,7 @@
 			children = (
 				207338B828BBA4B2008AA4F1 /* KWTourApp.swift */,
 				207338BA28BBA4B2008AA4F1 /* ContentView.swift */,
-				20F5DF6E28BD58F3006D08A5 /* home.swift */,
-				204FA9A128BE7B7C00838B22 /* ntknowbg.swift */,
-				20F5DF7228BD6599006D08A5 /* map.swift */,
-				204FA9A328BE7C1E00838B22 /* pick.swift */,
-				20B0C3A228C2C78500FA080F /* MallsView.swift */,
-				20B0C3A428C2C79200FA080F /* Mallschosen.swift */,
-				20B0C3A628C2C79F00FA080F /* ParksView.swift */,
-				20B0C3A828C2C7AB00FA080F /* Parkschosen.swift */,
-				20B0C3AA28C2C7B600FA080F /* CulturalLandmarksView.swift */,
-				20B0C3AC28C2C7C200FA080F /* CulturalLandmarkschosen.swift */,
-				20B0C3AE28C2C7D400FA080F /* MuseumsView.swift */,
-				20B0C3B028C2C7E000FA080F /* Museumschosen.swift */,
+				20440E5728C50DE8009BBE51 /* Views */,
 				204FA9A528BE9E3A00838B22 /* gal.swift */,
 				20296A9328BFE75300F490B8 /* mystructs.swift */,
 				20C8AD3728C39F4000651CB6 /* MapView.swift */,
