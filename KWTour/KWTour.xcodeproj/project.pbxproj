@@ -25,6 +25,7 @@
 		20B0C3AD28C2C7C200FA080F /* CulturalLandmarkschosen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B0C3AC28C2C7C200FA080F /* CulturalLandmarkschosen.swift */; };
 		20B0C3AF28C2C7D400FA080F /* MuseumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B0C3AE28C2C7D400FA080F /* MuseumsView.swift */; };
 		20B0C3B128C2C7E000FA080F /* Museumschosen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B0C3B028C2C7E000FA080F /* Museumschosen.swift */; };
+		20C8AD3828C39F4000651CB6 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C8AD3728C39F4000651CB6 /* MapView.swift */; };
 		20F5DF6F28BD58F3006D08A5 /* home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F5DF6E28BD58F3006D08A5 /* home.swift */; };
 		20F5DF7328BD6599006D08A5 /* map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F5DF7228BD6599006D08A5 /* map.swift */; };
 /* End PBXBuildFile section */
@@ -49,6 +50,7 @@
 		20B0C3AC28C2C7C200FA080F /* CulturalLandmarkschosen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CulturalLandmarkschosen.swift; sourceTree = "<group>"; };
 		20B0C3AE28C2C7D400FA080F /* MuseumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseumsView.swift; sourceTree = "<group>"; };
 		20B0C3B028C2C7E000FA080F /* Museumschosen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Museumschosen.swift; sourceTree = "<group>"; };
+		20C8AD3728C39F4000651CB6 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		20F5DF6E28BD58F3006D08A5 /* home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home.swift; sourceTree = "<group>"; };
 		20F5DF7228BD6599006D08A5 /* map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = map.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -99,6 +101,7 @@
 				20B0C3B028C2C7E000FA080F /* Museumschosen.swift */,
 				204FA9A528BE9E3A00838B22 /* gal.swift */,
 				20296A9328BFE75300F490B8 /* mystructs.swift */,
+				20C8AD3728C39F4000651CB6 /* MapView.swift */,
 				207338C828BBAE1F008AA4F1 /* app colors.swift */,
 				207338C628BBA573008AA4F1 /* Launch Screen.storyboard */,
 				207338BC28BBA4B2008AA4F1 /* Assets.xcassets */,
@@ -193,6 +196,7 @@
 				204FA9A628BE9E3A00838B22 /* gal.swift in Sources */,
 				20B0C3B128C2C7E000FA080F /* Museumschosen.swift in Sources */,
 				20F5DF7328BD6599006D08A5 /* map.swift in Sources */,
+				20C8AD3828C39F4000651CB6 /* MapView.swift in Sources */,
 				20F5DF6F28BD58F3006D08A5 /* home.swift in Sources */,
 				204FA9A228BE7B7C00838B22 /* ntknowbg.swift in Sources */,
 				20B0C3A328C2C78500FA080F /* MallsView.swift in Sources */,

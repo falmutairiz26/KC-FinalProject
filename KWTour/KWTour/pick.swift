@@ -20,9 +20,9 @@ NavigationView {
                 }, label: {
                 Text("Malls")
                     .font(.custom("Baskerville", size: 30))
-                    .foregroundColor(Color("oncon"))
+                    .foregroundColor(Color.theme.oncon)
                     .frame(width: 290, height: 70)
-                    .background(Color("container"))
+                    .background(Color.theme.container)
                     .cornerRadius(20)
                     .frame(width: 300, height: 90)})
 
@@ -32,9 +32,9 @@ NavigationView {
                 }, label: {
                 Text("Parks")
                     .font(.custom("Baskerville", size: 30))
-                    .foregroundColor(Color("oncon"))
+                    .foregroundColor(Color.theme.oncon)
                     .frame(width: 290, height: 70)
-                    .background(Color("container"))
+                    .background(Color.theme.container)
                     .cornerRadius(20)
                     .frame(width: 300, height: 90)})
 
@@ -45,9 +45,9 @@ NavigationView {
                 }, label: {
                 Text("Cultural Landmarks")
                     .font(.custom("Baskerville", size: 30))
-                    .foregroundColor(Color("oncon"))
+                    .foregroundColor(Color.theme.oncon)
                     .frame(width: 290, height: 70)
-                    .background(Color("container"))
+                    .background(Color.theme.container)
                     .cornerRadius(20)
                     .frame(width: 300, height: 90)})
 
@@ -56,9 +56,9 @@ NavigationView {
                 }, label: {
                 Text("Museums")
                     .font(.custom("Baskerville", size: 30))
-                    .foregroundColor(Color("oncon"))
+                    .foregroundColor(Color.theme.oncon)
                     .frame(width: 290, height: 70)
-                    .background(Color("container"))
+                    .background(Color.theme.container)
                     .cornerRadius(20)
                     .frame(width: 300, height: 90)})
 }

@@ -13,22 +13,24 @@ struct ParksView: View {
             Image("selectedbg")
                 .resizable()
                 .ignoresSafeArea()
-            ScrollView {
-                VStack {
-                    ForEach(parks){ i in
-                        NavigationLink(destination: {
-                            Parkschosen(i: i)
-                        }, label: {
-                        Text(i.name)
-                            .font(.custom("Baskerville", size: 30))
-                            .foregroundColor(Color("oncon"))
-                            .frame(width: 290, height: 70)
-                            .background(Color("container"))
-                            .cornerRadius(20)
-                            .frame(width: 300, height: 90)})
-        }
-        }
-        }
+            VStack {
+                ScrollView {
+                    VStack {
+                        ForEach(parks){ i in
+                            NavigationLink(destination: {
+                                Parkschosen(i: i)
+                            }, label: {
+                            Text(i.name)
+                                .font(.custom("Baskerville", size: 30))
+                                .foregroundColor(Color("oncon"))
+                                .frame(width: 290, height: 70)
+                                .background(Color("container"))
+                                .cornerRadius(20)
+                                .frame(width: 300, height: 90)})
+            }
+            }
+                }
+            }
         }
         }
         }

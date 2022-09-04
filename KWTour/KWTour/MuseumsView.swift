@@ -13,25 +13,27 @@ struct MuseumsView: View {
             Image("selectedbg")
                 .resizable()
                 .ignoresSafeArea()
-            ScrollView {
-                VStack {
-                    ForEach(museums){ i in
-                        NavigationLink(destination: {
-                            Museumschosen(i: i)
-                        }, label: {
-                        Text(i.name)
-                            .font(.custom("Baskerville", size: 30))
-                            .foregroundColor(Color("oncon"))
-                            .frame(width: 290, height: 70)
-                            .background(Color("container"))
-                            .cornerRadius(20)
-                            .frame(width: 300, height: 90)})
-        }
-        }
-        }
-        }
-        }
-        }
+            VStack {
+                ScrollView {
+                    VStack {
+                        ForEach(museums){ i in
+                            NavigationLink(destination: {
+                                Museumschosen(i: i)
+                            }, label: {
+                            Text(i.name)
+                                .font(.custom("Baskerville", size: 30))
+                                .foregroundColor(Color("oncon"))
+                                .frame(width: 290, height: 70)
+                                .background(Color("container"))
+                                .cornerRadius(20)
+                                .frame(width: 300, height: 90)})
+}
+}
+}
+}
+}
+}
+}
 
 struct MuseumsView_Previews: PreviewProvider {
     static var previews: some View {

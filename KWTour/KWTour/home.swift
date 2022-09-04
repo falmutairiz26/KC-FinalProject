@@ -39,9 +39,9 @@ struct home: View {
                 Text("Need to Know")
                     .padding()
                     .font(.custom("Bodoni 72 Smallcaps", size: 20))
-                    .foregroundColor(Color("oncon"))
+                    .foregroundColor(Color.theme.oncon)
                     .frame(width: 200, height: 50)
-                    .background(Color("container"))
+                    .background(Color.theme.container)
                     .cornerRadius(20)
             }
         //mapofkuwait
@@ -51,16 +51,16 @@ struct home: View {
                 Text("Map of Kuwait")
                     .padding()
                     .font(.custom("Bodoni 72 Smallcaps", size: 20))
-                    .foregroundColor(Color("oncon"))
+                    .foregroundColor(Color.theme.oncon)
                     .frame(width: 200, height: 50)
-                    .background(Color("container"))
+                    .background(Color.theme.container)
                     .cornerRadius(20)
             }
                         Spacer()
-    }
-    }
-            }
-        }
+}
+}
+}
+}
 }
 
 struct home_Previews: PreviewProvider {
