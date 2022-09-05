@@ -17,9 +17,10 @@ struct Museumschosen: View {
             VStack {
             //title
                 Text(i.name)
-                    .font(.custom("Baskerville", size: 30))
+                    .font(.custom("Baskerville", size: 28))
+                    .multilineTextAlignment(.center)
                     .foregroundColor(Color("oncon"))
-                    .frame(width: 290, height: 90)
+                    .frame(width: 300, height: 100, alignment: .center)
                     .background(Color("container"))
                     .cornerRadius(20)
                 
@@ -38,7 +39,7 @@ struct Museumschosen: View {
                     Text(i.info2)
 
                 }.padding()
-                .font(.custom("Baskerville", size: 15))
+                .font(.custom("Baskerville", size: 16))
                     .foregroundColor(Color("oncon"))
                     .frame(width: 350, height: 250)
                     .background(Color("container"))
@@ -50,20 +51,20 @@ struct Museumschosen: View {
                         ForEach(i.pics, id:\.self){ i in
                         Image(i)
                             .resizable()
-                            .scaledToFit()
-                            .frame(width: 150, height: 150)
+                            .frame(width: 180, height: 180)
                             .padding()
                     }
                     }
                 }.padding()
                 .frame(width: 400, height: 200)
+                .background(Color.theme.bg.opacity(0.4))
                 
             //link of official web/app
                 Text(i.location)
-                    .font(.custom("Baskerville", size: 18))
+                    .font(.custom("Baskerville", size: 17))
                     .multilineTextAlignment(.center)
                     .foregroundColor(Color("oncon"))
-                    .frame(width: 350, height: 100)
+                    .frame(width: 370, height: 110)
                     .background(Color("container"))
                     .cornerRadius(20)
                     .frame(width: 390, height: 180, alignment: .top)
@@ -75,8 +76,7 @@ struct Museumschosen: View {
 struct Museumschosen_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            Museumschosen(i:museum(name: "The Scientific Center", info: "The Scientific Center of Kuwait serves as a center for environmental education in the Persian Gulf region. The center also houses the largest aquarium in the Middle East after Dubai, holding over 100 different species of animals.", info2: " Along with the aquarium, it also contains an IMAX theatre, a harbor of historic dhows, and a gift shop among other contents.",location: "The Scientific Center of Kuwait is located in Salmiya, Kuwait.", pics: ["e","e","e","e"]))
-            Museumschosen(i:museum(name: "The Scientific Center", info: "The Scientific Center of Kuwait serves as a center for environmental education in the Persian Gulf region. The center also houses the largest aquarium in the Middle East after Dubai, holding over 100 different species of animals.", info2: " Along with the aquarium, it also contains an IMAX theatre, a harbor of historic dhows, and a gift shop among other contents.",location: "The Scientific Center of Kuwait is located in Salmiya, Kuwait.", pics: ["e","e","e","e"]))          .preferredColorScheme(.dark)
+            Museumschosen(i:museum(name: "The Kuwait National Museum", info: "The Kuwait National Museum was established in 1983 and designed by architect Michel Ecochard.", info2: "The museum has four main sections to it: 1. Kuwait Heritage Hall 2. Hall of Archeology 3. The Planetarium 4. Al Muhallab Dhow. The main buildings are connected to each other with elevated walkways.",location: "Arabian Gulf Street next to Kuwait’s National Assembly، Al Kuwait", pics: ["nm1","nm2","nm3","nm4","nm5"]))
         }
     }
 }

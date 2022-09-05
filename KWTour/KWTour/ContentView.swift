@@ -23,6 +23,12 @@ struct ContentView: View {
                             .foregroundColor(Color.theme.onp)
                         Text("Prefrences")
                     }
+                Viewall()
+                    .tabItem {
+                        Image(systemName: "line.3.horizontal")
+                            .foregroundColor(Color.theme.onp)
+                        Text("View All")
+                    }
             }
         }
     }

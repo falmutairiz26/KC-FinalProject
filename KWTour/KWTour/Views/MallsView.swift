@@ -22,20 +22,14 @@ ZStack {
                     }, label: {
                     Text(i.name)
                         .font(.custom("Baskerville", size: 30))
-                        .foregroundColor(Color.theme.oncon)
-                        .frame(width: 290, height: 70)
-                        .background(Color.theme.container)
+                        .foregroundColor(Color("oncon"))
+                        .frame(width: 310, height: 100)
+                        .background(Color("container"))
                         .cornerRadius(20)
-                        .frame(width: 300, height: 90)})
+                        .frame(width: 350, height: 120)})
     }
     }
         }
-//         .frame(width: 300, height: 700, alignment: .top)
-//        Spacer()
-//        Text("Space")
-//            .foregroundColor(Color.theme.bg)
-//            .frame(width: 390, height: 70)
-//            .background(Color.theme.bg)
     }
 }
 }
