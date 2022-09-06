@@ -23,11 +23,11 @@ struct ContentView: View {
                             .foregroundColor(Color.theme.onp)
                         Text("Prefrences")
                     }
-                Viewall()
+                SearchView()
                     .tabItem {
-                        Image(systemName: "line.3.horizontal")
+                        Image(systemName: "magnifyingglass")
                             .foregroundColor(Color.theme.onp)
-                        Text("View All")
+                        Text("Search")
                     }
             }
         }

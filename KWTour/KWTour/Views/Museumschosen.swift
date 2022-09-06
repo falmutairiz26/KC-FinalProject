@@ -17,6 +17,7 @@ struct Museumschosen: View {
             VStack {
             //title
                 Text(i.name)
+                    .padding()
                     .font(.custom("Baskerville", size: 28))
                     .multilineTextAlignment(.center)
                     .foregroundColor(Color("oncon"))
@@ -69,14 +70,14 @@ struct Museumschosen: View {
                     .cornerRadius(20)
                     .frame(width: 390, height: 180, alignment: .top)
                 Spacer()
-            }
+            }.padding()
         }
     }
 }
 struct Museumschosen_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            Museumschosen(i:museum(name: "The Kuwait National Museum", info: "The Kuwait National Museum was established in 1983 and designed by architect Michel Ecochard.", info2: "The museum has four main sections to it: 1. Kuwait Heritage Hall 2. Hall of Archeology 3. The Planetarium 4. Al Muhallab Dhow. The main buildings are connected to each other with elevated walkways.",location: "Arabian Gulf Street next to Kuwait’s National Assembly، Al Kuwait", pics: ["nm1","nm2","nm3","nm4","nm5"]))
+            Museumschosen(i:museum(name: "The Kuwait National Museum", info: "The Kuwait National Museum was established in 1983 and designed by architect Michel Ecochard.", info2: "The museum has four main sections to it: 1. Kuwait Heritage Hall 2. Hall of Archeology 3. The Planetarium 4. Al Muhallab Dhow. The main buildings are connected to each other with elevated walkways.",location: "Arabian Gulf Street next to Kuwait’s National Assembly، Al Kuwait", pics: ["knm1","knm2","knm3","knm4","knm5"]))
         }
     }
 }

@@ -17,6 +17,7 @@ struct CulturalLandmarkschosen: View {
             VStack {
             //title
                 Text(i.name)
+                    .padding()
                     .font(.custom("Baskerville", size: 28))
                     .multilineTextAlignment(.center)
                     .foregroundColor(Color("oncon"))
@@ -69,7 +70,7 @@ struct CulturalLandmarkschosen: View {
                     .cornerRadius(20)
                     .frame(width: 390, height: 180, alignment: .top)
                 Spacer()
-            }
+            }.padding()
         }
     }
 }

@@ -28,6 +28,7 @@ struct ntknow: View {
                 
                 ScrollView {
                     VStack {
+                        VStack{
                         HStack {
                             Text("Key Facts")
                                 .padding()
@@ -87,7 +88,7 @@ struct ntknow: View {
                                 .frame(width: 300, height: 75)
                                 .background(Color.theme.secondary)
                             .cornerRadius(20)
-                        }
+                        }}.padding(.horizontal)
                         Divider()
 
                         ScrollView(.horizontal) {
@@ -120,6 +121,13 @@ struct ntknow: View {
                                 .foregroundColor(Color.theme.onsec)
                                 .frame(width: 250, height: 250)
                                 .background(Color.theme.secondary)
+                                .cornerRadius(20)
+                        Text("Kuwait has 6 Governorates Assima, Haweli, Farwaniya, Jahra, Ahmadi, and Mubarak Al Kaber.")
+                                .padding()
+                                .font(.custom("Baskerville", size: 20))
+                                .foregroundColor(Color.theme.onp)
+                                .frame(width: 250, height: 250)
+                                .background(Color.theme.primary)
                                 .cornerRadius(20)
                             }
                         }.frame(width: 390, height: 290)

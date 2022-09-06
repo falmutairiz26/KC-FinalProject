@@ -17,6 +17,7 @@ struct Parkschosen: View {
             VStack {
             //title
                 Text(i.name)
+                    .padding()
                     .font(.custom("Baskerville", size: 28))
                     .multilineTextAlignment(.center)
                     .foregroundColor(Color("oncon"))
@@ -69,12 +70,13 @@ struct Parkschosen: View {
                     .cornerRadius(20)
                     .frame(width: 390, height: 180, alignment: .top)
                 Spacer()
-            }
+            }.padding()
         }
     }
 }
 struct Parkschosen_Previews: PreviewProvider {
     static var previews: some View {
         Parkschosen(i:    park(name: "Hawally Park", info: "Hawally Park is the largest amusement park opened in Kuwait City, which is spread over a wide area.", info2: "It includes a large number of entertainment and adventure games,including speed trains, ships and speed cars, in addition to an area dedicated to children's games.", location: "Block 5, Tunisia St, Hawalli, Kuwait.", pics: ["hp1","hp2","hp3","hp4","hp5"]))
+            .previewDevice("iPhone 12")
 }
 }
