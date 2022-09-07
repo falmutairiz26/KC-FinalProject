@@ -76,7 +76,7 @@ struct Parkschosen: View {
 }
 struct Parkschosen_Previews: PreviewProvider {
     static var previews: some View {
-        Parkschosen(i:    park(name: "Hawally Park", info: "Hawally Park is the largest amusement park opened in Kuwait City, which is spread over a wide area.", info2: "It includes a large number of entertainment and adventure games,including speed trains, ships and speed cars, in addition to an area dedicated to children's games.", location: "Block 5, Tunisia St, Hawalli, Kuwait.", pics: ["hp1","hp2","hp3","hp4","hp5"]))
+        Parkschosen(i:park(name: "Sheikh Jaber Al-Ahmad Cultural Centre", info: "The Sheikh Jaber Al-Ahmad Cultural Centre is the largest cultural center and opera house in the Middle East.", info2: "It offers a range of events in music, theatre, film, workshops and spoken word. The cultural complex, which includes theatres, concert halls, music centres, conference and exhibition halls, cinemas, libraries, center for historical documents, and public park.", location:"the Gulf Road in the capital Kuwait City.", pics: ["sjacc1","sjacc2","sjacc3"]))
             .previewDevice("iPhone 12")
 }
 }

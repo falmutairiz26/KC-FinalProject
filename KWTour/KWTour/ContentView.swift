@@ -29,11 +29,16 @@ struct ContentView: View {
                             .foregroundColor(Color.theme.onp)
                         Text("Search")
                     }
+                AppInfoView()
+                    .tabItem {
+                        Image(systemName: "info.circle")
+                            .foregroundColor(Color.theme.onp)
+                        Text("More About Us")
             }
-        }
+            }
     }
 }
-
+}
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         Group {

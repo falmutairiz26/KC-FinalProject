@@ -68,7 +68,8 @@ struct Mallschosen: View {
                     .frame(width: 370, height: 110)
                     .background(Color("container"))
                     .cornerRadius(20)
-                    .frame(width: 390, height: 180, alignment: .top)
+                .frame(width: 390, height: 180, alignment: .top)
+                
                 Spacer()
             }.padding()
         }
