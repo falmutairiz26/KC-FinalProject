@@ -20,20 +20,23 @@ ZStack {
                     NavigationLink(destination: {
                         Mallschosen(i: i)
                     }, label: {
-                    Text(i.name)
-                        .font(.custom("Baskerville", size: 30))
-                        .foregroundColor(Color("oncon"))
-                        .frame(width: 310, height: 100)
-                        .background(Color("container"))
-                        .cornerRadius(20)
-                        .frame(width: 350, height: 120)})
-    }
-    }
-        }
-    }
+                        Text(i.name)
+                            .font(.custom("Baskerville", size: 30))
+                            .foregroundColor(Color("oncon"))
+                            .frame(width: 310, height: 100)
+                            .background(Color("container"))
+                            .cornerRadius(20)
+                                .padding()})
+}
+}
+                }
+                Spacer()
+                Spacer()
 }
 }
 }
+}
+
 struct MallsView_Previews: PreviewProvider {
     static var previews: some View {
         MallsView()

@@ -26,10 +26,12 @@ struct CulturalLandmarksView: View {
                             .frame(width: 310, height: 100)
                             .background(Color("container"))
                             .cornerRadius(20)
-                            .frame(width: 350, height: 120)})
+                                .padding()})
 }
 }
-}
+                }
+                Spacer()
+                Spacer()
 }
 }
 }
